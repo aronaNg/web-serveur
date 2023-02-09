@@ -26,7 +26,7 @@
       echo '<tr>';
       echo '<td>' . $row['username'] . '</td>';
       echo '<td>
-        <a href="deleteAdmin.php?id=' . $row['id'] . '">Delete</a>
+        <a href="deleteAdmin.php?id=' . $row['username'] . '">Delete</a>
       </td>';
       echo '</tr>';
     }
